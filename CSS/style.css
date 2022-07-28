@@ -28,6 +28,7 @@ nav .container a {
   margin-top: 130px;
 }
 
+/* learning section  */
 .card-section{
   background-color: var(--light-blue);
 }
@@ -44,6 +45,7 @@ nav .container a {
   background-color: var(--blue);
 }
 
+/* icon color  */
 .fa-solid{
   color: var(--golden);
 }
