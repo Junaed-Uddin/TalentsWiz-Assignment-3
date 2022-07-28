@@ -2,6 +2,7 @@
   --main-font: "Poppins", sans-serif;
   --violet: #6d28d9;
   --blue: #289bde;
+  --golden: #fbbf24;
 }
 
 /* Utilities  */
@@ -26,8 +27,18 @@ nav .container a {
   margin-top: 130px;
 }
 
-/* ready to join section  */
+/* button color section  */
 .join-section,
 .view-all-btn {
   background-color: var(--blue);
+}
+
+.fa-solid{
+  color: var(--golden);
+}
+
+/* feedback student */
+.feedback-image{
+  width: 70px;
+  height: 70px;
 }
