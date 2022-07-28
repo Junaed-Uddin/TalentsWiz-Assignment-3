@@ -3,6 +3,7 @@
   --violet: #6d28d9;
   --blue: #289bde;
   --golden: #fbbf24;
+  --light-blue: #F4FAFD;
 }
 
 /* Utilities  */
@@ -25,6 +26,16 @@ nav .container a {
 /* discover course */
 .section-height {
   margin-top: 130px;
+}
+
+.card-section{
+  background-color: var(--light-blue);
+}
+
+.learning-image{
+  min-height: fit-content;
+  object-fit: cover;
+  object-position: center;
 }
 
 /* button color section  */
