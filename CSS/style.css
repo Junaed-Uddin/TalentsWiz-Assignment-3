@@ -1,0 +1,33 @@
+:root {
+  --main-font: "Poppins", sans-serif;
+  --violet: #6d28d9;
+  --blue: #289bde;
+}
+
+/* Utilities  */
+body {
+  font-family: var(--main-font);
+}
+
+/* navbar  */
+nav .container a {
+  color: var(--violet);
+}
+
+.image-slider img {
+  max-height: 600px;
+  min-height: 500px;
+  object-fit: cover;
+  object-position: top;
+}
+
+/* discover course */
+.section-height {
+  margin-top: 130px;
+}
+
+/* ready to join section  */
+.join-section,
+.view-all-btn {
+  background-color: var(--blue);
+}
