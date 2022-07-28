@@ -11,6 +11,10 @@ body {
   font-family: var(--main-font);
 }
 
+.section-height {
+  margin-top: 130px;
+}
+
 /* navbar  */
 nav .container a {
   color: var(--violet);
@@ -21,11 +25,6 @@ nav .container a {
   min-height: 500px;
   object-fit: cover;
   object-position: top;
-}
-
-/* discover course */
-.section-height {
-  margin-top: 130px;
 }
 
 /* learning section  */
